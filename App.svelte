@@ -70,7 +70,7 @@ afterUpdate(() => {
           slot="after"
           component="div"
           onChange={() => isPreview=!isPreview}
-          checked={darkMode}
+          checked={isPreview}
         />
       </ListItem>
     </List>
