@@ -13,7 +13,7 @@ Add support for multi-directional layouts for `Konsta UI` with tailwind `rtl` an
 # Screenshots
 | LTR | RTL |
 | :---: | :---: |
-| ![LTR](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-ltr_(iPhone SE).png?raw=true) |  ![RTL](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-rtl_(iPhone SE).png?raw=true) |
+| ![LTR](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-ltr.png?raw=true) |  ![RTL](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-rtl.png?raw=true) |
  
 # Credit
 [ibilux](https://github.com/ibilux/)
