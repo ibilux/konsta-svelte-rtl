@@ -2,10 +2,10 @@
   "name": "vite-project",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
+    "dev": "vite --host",
+    "start": "vite --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview --host"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.5",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.4",
-    "konsta": "^1.0.2",
+    "konsta": "ibilux/konsta#rtl",
     "svelte": "^3.50.0",
     "tailwindcss": "^3.1.8"
   }

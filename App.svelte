@@ -15,7 +15,7 @@ import {
   Toggle,
   NavbarBackLink,
   Link
-} from 'konsta/svelte';
+} from 'konsta/src/svelte';
 
 let theme = 'ios';
 let darkMode = false;

@@ -1,4 +1,4 @@
-const tailwindMobile = require('konsta/config');
+const tailwindMobile = require('konsta/src/config');
 
 module.exports = tailwindMobile({
   content: [
