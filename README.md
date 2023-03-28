@@ -1,3 +1,19 @@
 # konsta-svelte-rtl
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/konsta-svelte-1tlda1)
+Add support for multi-directional layouts for `Konsta UI` with tailwind `rtl` and `ltr` modifiers.
+
+**Note:** The `ltr` modifier will not take effect unless the dir attribute is explicitly set to `ltr`, so if you are building a multi-directional site make sure to always set a direction, not just in `rtl` mode.
+
+```html
+<html dir="ltr">
+  <!-- ... -->
+</html>
+```
+
+# Screenshots
+| LTR | RTL |
+| :---: | :---: |
+| ![LTR](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-ltr_(iPhone SE).png?raw=true) |  ![RTL](https://github.com/ibilux/konsta-svelte-rtl/blob/main/screenshots/ibilux-rtl_(iPhone SE).png?raw=true) |
+ 
+# Credit
+[ibilux](https://github.com/ibilux/)
