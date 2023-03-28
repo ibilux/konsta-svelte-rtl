@@ -111,7 +111,7 @@ afterUpdate(() => {
     <Block strongIos outlineIos>
       <p>Hello, this is my awesome App</p>
     </Block>
-    <Block strongIos outlineIos class="flex space-x-4">
+    <Block strongIos outlineIos class="flex space-x-4 rtl:space-x-reverse">
       <Button>Button 1</Button>
       <Button>Button 2</Button>
     </Block>
