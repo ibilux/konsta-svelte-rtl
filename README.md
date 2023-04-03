@@ -1,14 +1,6 @@
 # konsta-svelte-rtl
 
-Add support for multi-directional layouts for `Konsta UI` with tailwind `rtl` and `ltr` modifiers.
-
-**Note:** The `ltr` modifier will not take effect unless the dir attribute is explicitly set to `ltr`, so if you are building a multi-directional site make sure to always set a direction, not just in `rtl` mode.
-
-```html
-<html dir="ltr">
-  <!-- ... -->
-</html>
-```
+Add support for multi-directional layouts for `Konsta UI` with tailwind logical properties support for inline direction.
 
 # Screenshots
 | LTR | RTL |
