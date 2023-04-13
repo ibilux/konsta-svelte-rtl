@@ -8,16 +8,16 @@
     "serve": "vite preview --host"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^1.0.5",
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
     "framework7-icons": "^5.0.5",
     "history": "^5.3.0",
     "svelte-navigator": "^3.2.2",
-    "vite": "^3.1.0"
+    "vite": "^3.2.5"
   },
   "dependencies": {
-    "autoprefixer": "^10.3.4",
-    "konsta": "ibilux/konsta#rtl",
-    "svelte": "^3.50.0",
+    "autoprefixer": "^10.4.14",
+    "konsta": "github:konstaui/konsta",
+    "svelte": "^3.58.0",
     "tailwindcss": "^3.3.1"
   }
 }
