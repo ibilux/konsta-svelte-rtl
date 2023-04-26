@@ -6,7 +6,7 @@
     Block,
     MenuList,
     MenuListItem,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
   import DemoIcon from '../components/DemoIcon.svelte';
 
   const isPreview = document.location.href.includes('examplePreview');

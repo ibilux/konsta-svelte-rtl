@@ -7,7 +7,7 @@
     SegmentedButton,
     Block,
     BlockTitle,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   const isPreview = document.location.href.includes('examplePreview');
   let activeSegmented = 1;

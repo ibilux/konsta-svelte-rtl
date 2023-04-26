@@ -1,9 +1,8 @@
-const tailwindMobile = require('konsta/src/config');
+const tailwindMobile = require('konsta/config');
 
 module.exports = tailwindMobile({
   content: [
-    './components/**/*.{js,jsx,ts,tsx,svelte}',
-    './pages/**/*.{js,jsx,ts,tsx,svelte}',
+    './src/**/*.{js,jsx,ts,tsx,svelte}',
     './*.svelte',
     './*.js',
     './index.html',
@@ -20,4 +19,7 @@ module.exports = tailwindMobile({
     },
   },
   darkMode: 'class',
+	theme: {
+		extend: {}
+	},
 });

@@ -10,7 +10,7 @@
     ListItem,
     Tabbar,
     TabbarLink,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
   import {
     PersonCircleFill,
     EnvelopeFill,

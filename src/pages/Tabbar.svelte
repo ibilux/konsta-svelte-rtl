@@ -10,7 +10,7 @@
     List,
     ListItem,
     Toggle,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
   import {
     EnvelopeFill,
     Calendar,

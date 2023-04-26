@@ -9,7 +9,7 @@
     Toggle,
     Link,
     Popover,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   import { afterUpdate } from 'svelte';
   import routes from '../routes.js';
@@ -24,7 +24,11 @@
 
   const toggleDarkMode = () => {
     darkMode = !darkMode;
-    document.documentElement.classList.toggle('dark');
+    if(darkMode){
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
   };
 
   let rtl = false;

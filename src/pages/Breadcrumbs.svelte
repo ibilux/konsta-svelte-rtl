@@ -14,7 +14,7 @@
     List,
     ListItem,
     Link,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   let popoverOpened = false;
 

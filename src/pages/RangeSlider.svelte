@@ -8,7 +8,7 @@
     List,
     ListItem,
     Range,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   const isPreview = document.location.href.includes('examplePreview');
   let volume = 50;

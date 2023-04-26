@@ -5,7 +5,7 @@
     NavbarBackLink,
     List,
     ListButton,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   const isPreview = document.location.href.includes('examplePreview');
 </script>

@@ -6,7 +6,7 @@
     List,
     ListItem,
     Toggle,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   const isPreview = document.location.href.includes('examplePreview');
   let checked1 = true;

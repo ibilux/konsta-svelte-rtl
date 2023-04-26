@@ -6,7 +6,7 @@
     Block,
     Fab,
     useTheme,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
   import { Plus } from 'framework7-icons/svelte';
   import MdAdd from '../components/MdAdd.svelte';
 

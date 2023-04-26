@@ -1,6 +1,6 @@
 <script>
   import { onMount, beforeUpdate } from 'svelte';
-  import { App } from 'konsta/src/svelte';
+  import { App } from 'konsta/svelte';
   import { Router, Route, createHistory } from 'svelte-navigator';
   import createHashSource from './hashHistory.js';
 

@@ -8,7 +8,7 @@
     Button,
     Toolbar,
     Link,
-  } from 'konsta/src/svelte';
+  } from 'konsta/svelte';
 
   const isPreview = document.location.href.includes('examplePreview');
   let sheetOpened = false;
